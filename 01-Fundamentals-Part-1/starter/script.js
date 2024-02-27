@@ -3,7 +3,6 @@ let js = "amazing , i can do this";
 let number = 23;
 
 //              Values and Variables assignment
-
 let country = "INDIA";
 let continent = "Asia";
 let population = "140.76";
@@ -14,7 +13,7 @@ let javascriptIsFun = true;
 let isIsland = false;
 let language; // or let language = undefined; 
 console.log(typeof isIsland , typeof language);
-javascriptIsFun = "YES!";
+javascriptIsFun = "ofcourse!";
 
 //almost do same thing
 let children = undefined;
