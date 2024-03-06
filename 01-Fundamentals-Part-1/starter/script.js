@@ -20,6 +20,14 @@ let children = undefined;
 let secondChildren = null;
 const PI = 3.1415;
 
+
+// let || var --> let function bounded and var global variable  
+let age = 10;
+age = 20;
+
+var birthYear = 2005;
+birthYear = 50;
+
 //you can't do this --> let something{"value"};
 
 /*
