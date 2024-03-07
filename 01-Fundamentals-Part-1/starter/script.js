@@ -39,6 +39,8 @@ let lastName = "Singh";
 console.log(firstName + " " + lastName);
 
 
+
+
 //you can't do this --> let something{"value"};
 
 /*
