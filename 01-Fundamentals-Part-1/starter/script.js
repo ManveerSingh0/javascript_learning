@@ -28,6 +28,17 @@ age = 20;
 var birthYear = 2005;
 birthYear = 50;
 
+
+
+/*-------------------------OPERATORS-----------------------------------*/
+const ageManveer = 2024 - 2005;
+console.log(ageManveer);
+console.log(2 ** 2); //this will print the about;
+let firstName = "Manveer";
+let lastName = "Singh";
+console.log(firstName + " " + lastName);
+
+
 //you can't do this --> let something{"value"};
 
 /*
