@@ -61,7 +61,15 @@ console.log('20' - '10' - 5); //return 5
 
 //false values in javascript = '' , 0 , undefined , null , NaN , false
 
+console.log('18' == 18); //this will return true
+console.log('18' === 18); //this will return false becaseu string comparision operator
+console.log(18 != '18');
+console.log(18 !== '17');
 
+
+
+const favourite = Number(prompt("what is your favourite number"));
+console.log(`your favourite number is ${favourite}`);
 //you can't do this --> let something{"value"};
 /*
     -- ways to name variables
