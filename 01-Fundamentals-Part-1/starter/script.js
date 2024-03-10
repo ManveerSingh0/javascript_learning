@@ -9,6 +9,7 @@ let population = "140.76";
 let javascriptIsFun = true;
 
 
+
 //              Data types
 let isIsland = false;
 let language; // or let language = undefined; 
@@ -25,8 +26,10 @@ const PI = 3.1415;
 let age = 10;
 age = 20;
 
+
 var birthYear = 2005;
 birthYear = 50;
+
 
 
 
@@ -39,10 +42,27 @@ let lastName = "Singh";
 console.log(firstName + " " + lastName);
 
 
+//string litrals || interpolated strings 
+console.log(`I am ${firstName} , how are you doing and my age is ${ageManveer}`);
+
+//type conversion and coercion
+console.log(Number("18") + 18);
+console.log(String(ageManveer));
+//return Nan if string is not a number
+console.log(typeof NaN);
+
+
+//type coercion convert number to string if using +
+console.log("hello" + 18 + "old");
+//but - (minus || hypen) && * && / convert number to string
+console.log('20' - '10' - 5); //return 5
+
+
+
+//false values in javascript = '' , 0 , undefined , null , NaN , false
 
 
 //you can't do this --> let something{"value"};
-
 /*
     -- ways to name variables
     -**use camel case in javascript
@@ -50,6 +70,7 @@ console.log(firstName + " " + lastName);
     2. $variablename10
     3. c++ (variable name)
 */
+
 
 console.log(40 + 40);
 console.log(number);
