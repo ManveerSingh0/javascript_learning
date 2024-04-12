@@ -57,6 +57,8 @@ object_player.location = "india";
 object_player["Instagram"] = "irom_niz";
 console.log(object_player);
 
+console.log(`Nothing can beat ${object_player.age}`);
+
 const name = "Name";
 console.log(object_player['first' + name]);
 console.log(object_player.friends[0]);
@@ -64,4 +66,6 @@ console.log(object_player.friends[0]);
 //calling method using two different ways
 object_player['calcAge']();
 object_player.calcAge();
+
+
 
