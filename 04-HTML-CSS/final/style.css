@@ -1,56 +1,25 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+
+
+body{
+    margin: 100px;
+    background-color:  #606c38;
 }
 
-body {
-  background-color: rgb(255, 247, 201);
-  font-family: Arial;
-  font-size: 20px;
-  padding: 50px;
+
+h1, h2{
+    font-family: "Rubik Mono One" , monospace;
+    font-weight: 200;
+    color: #283618;		
 }
 
-h1 {
-  font-size: 35px;
-  margin-bottom: 25px;
+p{
+    font-family: "Madimi One" , sans-serif;
+    color: #fefae0;
+    font-size: 20px;
 }
 
-h2 {
-  margin-bottom: 20px;
-  text-align: center;
-}
-
-p {
-  margin-bottom: 20px;
-}
-
-.first {
-  color: red;
-}
-
-#your-name {
-  background-color: rgb(255, 220, 105);
-  border: 5px solid #444;
-  width: 400px;
-  padding: 25px;
-  margin-top: 30px;
-}
-
-input,
-button {
-  padding: 10px;
-  font-size: 16px;
-}
-
-a {
-  background-color: yellowgreen;
-}
-
-#course-image {
-  width: 300px;
-}
-
-#your-name h2 {
-  color: olivedrab;
+.anime-image{
+    display: block;
+    border: 5px solid #444;
+    border-radius: 50%;
 }
