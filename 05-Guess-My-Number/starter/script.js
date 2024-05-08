@@ -12,9 +12,11 @@ document.querySelector('.guess').value  = 23;
 console.log(document.querySelector('.guess').value);
 */
 
-const secret_number = Math.trunc(Math.random() * 20) + 1;
-document.querySelector('.number').textContent = secret_number;
-let score = 20;
+let secret_number = Math.trunc(Math.random() * 20) + 1;
+let score = 5;
+
+
+
 
 function log_into_console(){
     const guess = Number(document.querySelector('.guess').value);
@@ -27,6 +29,8 @@ function log_into_console(){
         document.querySelector('.message').textContent = "You Won!!!";
         document.querySelector('body').style.backgroundColor = '#60b347';
         document.querySelector('.number').style.width = "30rem";
+        document.querySelector('.number').textContent = secret_number;
+
     }
     else if(guess > secret_number){
         if(score > 1){
@@ -37,6 +41,8 @@ function log_into_console(){
         else{
           document.querySelector('.message').textContent = "You lost the game";
           document.querySelector('.score').textContent = 0;
+          document.querySelector('body').style.backgroundColor = 'red';
+
         }
         
     }
@@ -49,8 +55,21 @@ function log_into_console(){
         else{
           document.querySelector('.message').textContent = "You lost the game";
           document.querySelector('.score').textContent = 0;
+          document.querySelector('body').style.backgroundColor = 'red';
+
         }
     }
 }
 
 document.querySelector('.check').addEventListener('click' , log_into_console);
+
+
+document.querySelector('.again').addEventListener('click', function restart(){
+    document.querySelector('body').style.backgroundColor = '#222';
+    score = 5;
+    document.querySelector('.score').textContent = score;   
+    document.querySelector('.message').textContent = "Start guessing...";
+    document.querySelector('.number').textContent = "?";
+    document.querySelector('.guess').value = ' ';
+    secret_number = Math.trunc(Math.random() * 20) + 1;
+});
